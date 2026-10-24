@@ -20,3 +20,6 @@
  reduced.addEventListener('change',()=>{if(reduced.matches)setPaused(true);});document.addEventListener('visibilitychange',()=>{if(document.hidden&&breathing)stopBreathing();});
 })();
 
+
+// Play the supplied-logo reveal once when it enters view; keep static artwork without JS.
+{const logo=document.querySelector('.logo-motion-art');if(logo&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const logoObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){logo.classList.add('play-logo');logoObserver.disconnect();}},{threshold:.25});logoObserver.observe(logo);}}

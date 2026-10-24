@@ -46,3 +46,12 @@ See THIRD_PARTY.md for reviewed open-source projects and licenses. Self-hosting 
 The current site is deployed through Sites. GitHub keeps the source; pushing GitHub alone does not deploy the Sites website. Publish the matching version through the Sites workflow after each update.
 
 For an independent Cloudflare Pages deployment, connect this repository, use no framework/build command and set the output directory to `dist`. Domain ownership and provider accounts remain separate. Do not upload clinical records, bank details, credentials or the confidential reference PDF.
+
+## Animated logo
+
+- Watch: https://sunflower-mind.issacbalappatt.chatgpt.site/logo-motion.html
+- Export: `dist/assets/sunflower-mind-logo-motion.mp4`, 1080 x 1080, 30 fps, 9 seconds, silent H.264. All 270 frames were decoded successfully during verification.
+- Website asset: `dist/assets/sunflower-mind-animated-logo.svg`, using the original supplied logo embedded without redrawing the artwork or lettering.
+- The inline website version reveals once when the practice section enters view. The existing global pause controls pause its effects; reduced-motion users see static artwork. The separate film page plays only when the visitor presses play.
+- Rebuild the inline SVG with `node scripts/build-logo-animation.mjs`.
+- The MP4 renderer requires Sharp (Node) and FFmpeg. Run `node scripts/render-logo-motion.mjs <absolute-ffmpeg-path>` from the website root. It writes to `../logo-motion/output/`; copy the approved video and poster into `dist/assets/` before publishing. Set `SUNFLOWER_NODE_MODULES` when using a separate dependency folder. No cloud video API or generated artwork is used.
