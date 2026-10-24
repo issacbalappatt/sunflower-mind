@@ -1,6 +1,11 @@
-/* Public configuration only. Never place provider secret keys here. */
+/* Public configuration only. Never add secret keys. */
 window.SUNFLOWER_CONFIG = {
-  bookingUrl: '', // Verified HTTPS booking provider URL; provider owns live availability, intake, consent and payment.
-  contactEmail: '',
-  bookingEnabled: false
+  practitionerName: 'Nayana Binuraj Antony',
+  contactEmail: 'nayana@sunflowermind.com', // Planned address; mailbox is not active.
+  contactEnabled: false,
+  timezone: 'Asia/Kolkata',
+  sessionMinutes: 60,
+  bookingUrl: '', // Verified practice-owned Cal.com event URL, after account activation.
+  bookingEnabled: false,
+  embedEnabled: true
 };
