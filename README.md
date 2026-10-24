@@ -1,6 +1,6 @@
 # Sunflower Mind
 
-Website for **Nayana Binuraj Antony**, psychologist. Brand palette: warm ivory `#f8f6ef`, deep sage `#2d4238`, leaf `#788664`, sunflower gold `#ad7b28`. The supplied logo appears in navigation, footer, practice introduction, booking calendar, booking dialog, closing section, browser icon and social metadata.
+Website for **Nayana Binuraj Antony**, RCI-registered clinical psychologist. Qualifications supplied by the practice owner: **B.Sc., M.Sc. and M.Phil.** Registered with the Rehabilitation Council of India (RCI). No registration number, institutions, subjects or graduation dates have been supplied. Brand palette: warm ivory `#f8f6ef`, deep sage `#2d4238`, leaf `#788664`, sunflower gold `#ad7b28`. The supplied logo appears in navigation, footer, practice introduction, booking calendar, booking dialog, closing section, browser icon and social metadata.
 
 ## Live website
 

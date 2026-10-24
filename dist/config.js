@@ -1,6 +1,8 @@
 /* Public configuration only. Never add secret keys. */
 window.SUNFLOWER_CONFIG = {
   practitionerName: 'Nayana Binuraj Antony',
+  professionalTitle: 'RCI-registered clinical psychologist',
+  qualifications: 'B.Sc., M.Sc., M.Phil.',
   contactEmail: 'nayana@sunflowermind.com', // Planned address; mailbox is not active.
   contactEnabled: false,
   timezone: 'Asia/Kolkata',
